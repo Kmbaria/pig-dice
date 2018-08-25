@@ -14,10 +14,12 @@ background-attachment: fixed;
 	color: black;
 
 }
-.fluid{
-	background-image: url("../image/victor.jpg");
+.container{
+	color: white;
+	font-size: 20px;
 }
 
-#playagain{
-	text-align: center;
+
+player-console {
+  display: none;
 }
