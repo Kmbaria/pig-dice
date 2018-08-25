@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+
+     <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Pig Dice</title>
+  </head>
+  <body>
+    <div class="containter">
+           <h1 class="display-4">Pig Dice</h1>
+
+
+           <!-- <div class="result"></div> -->
+        <div class="well intro">
+
+           <h2>  Welcome to the Pig Dice <em>(game).</em></h2>
+           <img src="image/ser.jpg" alt="dice"/> &nbsp<img src="image/seq.jpg" alt="dice"/>
+           &nbsp<img src="image/den.jpg" alt="dice"/>
+           <p>This is a <em>good game</em> you should enjoy it.</p>
+           <p>Press Roll button to play & the feed the pig button to hold.</p>
+           <p>Play Game</p>
+           <button class="start btn btn-danger btn-lg">PLAY</button>
+         </div>
+   <form id= "dice">
+      <div class="row">
+        <div class="col-sm-4 col-lg-2 col-lg-offset-3 text-center">
+          <form id="player-setup-1" class="center-block">
+            <label for="player-1-name">Player 1 Name</label>
+            <input type="text" class="player-1-name">
+            <button type="submit" class="btn btn-sm btn-player-name-input">+</button>
+          </form>
+        </div>
+
+             <div class="col-sm-4 col-lg-2 text-center">
+               <form id="player-setup-2" class="center-block">
+                 <label for="player-2-name">Player 2 Name</label>
+                 <input type="text" class="player-2-name">
+                 <button type="submit" class="btn btn-sm btn-player-name-input">+</button>
+               </form>
+             </div>
+           </div>
+
+           <div class="row game-interface">
+             <div class="col-sm-4 text-center player-1-stats">
+               <h3 class="output-player-1-name"></h3>
+               <div class="center-block">
+                 <div class="player-1-score">
+                 </div>
+                 <ol class="player-1-history">
+                 </ol>
+               </div>
+             </div>
+             <div class="col-sm-4 text-center">
+               <div>
+                 <h3 class="output-dice-roll"></h3>
+
+               <button class="btn btn- btn-roll-dice">Roll</button>
+               <button class="btn btn- btn-feed-the-pig">Feed the pig</button> </div>
+               <div>
+                <h3 class="output-turn-total"></h3>
+               </div>
+             </div>
+             <div class="col-sm-4 text-center player-2-stats">
+               <h3 class="output-player-2-name"></h3>
+               <div class="center-block">
+         <div class="player-2-score">
+         </div>
+         <ol class="player-2-history">
+         </ol>
+       </div>
+     </div>
+   </div>
+   </form>
+ </div>
+  </div>
+
+  <hr class="featurette-divider" />
+    <p id="footnote" align="center"><font face="arial" size="4">Dice Game Created By...<br>
+    <a href="https://kmbaria.github.io/g.portfolio/">George Kmbaria</a></font></p>
+
+</body>
+</html>
