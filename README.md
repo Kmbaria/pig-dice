@@ -37,7 +37,7 @@ Bootstrap
 JavaScript
 jQuery
 
-<b>icense</b>
+<b>License</b>
 
 This software is licensed under the MIT license.
 
