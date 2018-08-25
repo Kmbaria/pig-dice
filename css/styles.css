@@ -7,4 +7,17 @@ background-attachment: fixed;
 }
 .well{
 	background-image: url("../image/den.jpg");
+	color: white;
+}
+
+.jumbotron{
+	color: black;
+
+}
+.fluid{
+	background-image: url("../image/victor.jpg");
+}
+
+#playagain{
+	text-align: center;
 }
