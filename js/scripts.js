@@ -1,10 +1,11 @@
 $(document).ready(function() {
   $(".start").click(function(){
     $(".intro").hide();
-      $("#dice").show();
+      $("#jumbotron").show();
 
   });
 });
+
 var player1="";
 var player2="";
 
@@ -42,7 +43,7 @@ Player.prototype.winnerCheck = function () {
 }
 
 Player.prototype.newGame = function () {
-  //debugger;
+
   this.roll = 0;
   this.tempscore = 0;
   this.totalscore = 0;
@@ -55,9 +56,7 @@ var clearValues = function(){
 }
 
 
-
-
-// User Interface
+// UI
 $(document).ready(function() {
 
   $("button#start").click(function(event){
@@ -76,6 +75,7 @@ $(document).ready(function() {
     player2.playerName=player2Name;
 
   });
+
   $("button#new-game").click(function(event){
     $(".player-console").hide();
     clearValues();

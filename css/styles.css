@@ -5,40 +5,6 @@ background-size: cover;
 background-attachment: fixed;
 
 }
-
-h1 {
-	color: #F4F4F4;
-	font-size: 70px;
-	text-align: center;
-}
-
-h2 {
-  color: #F4F4F4;
- 	font-size: 40px;
-  image:20%
- }
-
-p {
-	color: #E8E8E8;
-	font-size: 20px;
-
-}
 .well{
-	background-image: url("../image/victor.jpg");
-background-repeat: no-repeat;
-background-size: cover;
-background-attachment: fixed;
-letter-spacing: normal;
-border-color: none;
-margin-bottom: 10px;
-border-color: #6E7B8B;
+	background-image: url("../image/den.jpg");
 }
-#dice{
-	display: none;
-}
-	/*#button:hover {
-	 background: white;
-	 border: ipx solid green;
-	 color: black;
-	 cursor: pointer;
-	}*/
