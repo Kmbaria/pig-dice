@@ -50,7 +50,7 @@ var clearValues = function(){
 
 
 
-// User Interface
+
 $(document).ready(function() {
 
   $("button#start").click(function(event){
@@ -84,6 +84,15 @@ $(document).ready(function() {
     $(".start-menu").show();
   });
 
+
+  $("button#player1-hold").click(function(event){
+    player1.hold();
+    $("#total-score-1").text(player1.totalscore);
+    $("#round-total-1").empty();
+    $("#die-roll-1").empty();
+    player1.winnerCheck();
+  });
+
   $("button#player1-roll").click(function(event){
     player1.roll = throwdice();
     $("#die-roll-1").text(player1.roll);
@@ -98,13 +107,6 @@ $(document).ready(function() {
     $("#round-total-2").text(player2.tempscore);
   });
 
-  $("button#player1-hold").click(function(event){
-    player1.hold();
-    $("#total-score-1").text(player1.totalscore);
-    $("#round-total-1").empty();
-    $("#die-roll-1").empty();
-    player1.winnerCheck();
-  });
 
   $("button#player2-hold").click(function(event){
     player2.hold();
